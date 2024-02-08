@@ -36,10 +36,10 @@ jobs:
 
     # Use FTP, SSH, or a specific cloud provider action to deploy your build artifacts
     # Below is an example using FTP
-    - name: Deploy to FTP
+    - name: oaktontech
       uses: SamKirkland/FTP-Deploy-Action@4.2.0
       with:
         ftp-server: ftp://oaktontech.com/public_html/
-        ftp-username: ${{ secrets.FTP_USERNAME }}
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        ftp-username: u466199706
+        ftp-password: Creta$9899 
         local-dir: build/
