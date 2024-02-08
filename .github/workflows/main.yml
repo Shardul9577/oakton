@@ -49,3 +49,6 @@ jobs:
         password: Creta$9899
         local-dir: build/
         server-dir: /public_html/
+
+    - name: List files
+      run: ls -la
