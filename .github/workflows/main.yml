@@ -44,3 +44,5 @@ jobs:
         password: Creta$9899
         local-dir: build/
         server-dir: /public_html/ # Ensure this matches the target directory on your FTP server
+        protocol: ftps
+        port: 21 # Or the specific port for FTPS if it's not the default
