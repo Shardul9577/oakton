@@ -33,13 +33,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-
-    # Use FTP, SSH, or a specific cloud provider action to deploy your build artifacts
-    # Below is an example using FTP
-    name: Deploy to FTP
-    uses: SamKirkland/FTP-Deploy-Action@4.2.0
-    with:
-        ftp-server: ftp://oaktontech.com/public_html/
-        ftp-username: u466199706
-        ftp-password: Creta$9899 
+    - name: Deploy to FTP
+      uses: SamKirkland/FTP-Deploy-Action@4.2.0
+      with:
+        server: oaktontech.com
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
         local-dir: build/
+        server-dir: /public_html/
