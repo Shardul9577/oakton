@@ -43,7 +43,6 @@ jobs:
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     
     steps:
-    - uses: actions/checkout@v2
     - name: Deploy to FTP
       uses: SamKirkland/FTP-Deploy-Action@4.2.0
       with:
