@@ -1,0 +1,61 @@
+.navbar{
+    background-color: #023047;
+}
+.logo{
+    width: 10rem;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-align: left;
+    font-size: larger;
+    padding: 0.5rem;
+    position: relative; /* Needed for the absolute positioning of the pseudo-element */
+    text-decoration: none; /* Remove default underline */
+    display: inline-block; /* Allows the ::after pseudo-element to align correctly */
+}
+
+.nav-link:active, .nav-link:focus {
+    color: #ffffff; /* Set this to the desired color of your nav links */
+    outline: none; /* Removes the outline that might appear on focus */
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px; /* Thickness of the underline */
+    bottom: 0;
+    left: 50%;
+    background-color: #ffffff; /* Color of the underline */
+    transition: width 0.3s ease, left 0.3s ease; /* Smooth transition for the underline */
+    color: white;
+}
+
+.nav-link:hover::after {
+    width: 100%; /* Full width of the element */
+    left: 0; /* Align to the left edge */
+    color: white;
+}
+
+.links{
+    justify-content: flex-end;
+}
+
+.links-gap{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    border-color: rgb(234, 172, 139);
+    color: rgb(234, 172, 139) ;
+}
+.btn:hover{
+    background-color: #dda15e;
+    color: black;
+}

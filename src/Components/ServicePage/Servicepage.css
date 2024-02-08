@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit&display=swap');
+
+
+.servicepage{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.subhead1{
+  color: #888;
+  text-align: left;
+  font-family: 'Ubuntu', sans-serif;
+}
+.heads1{
+  color: white;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+}
+.heads2{
+  color:#ffb703;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+}
+.servicebox{
+    display: flex;
+}
+
+.boxdown{
+  margin-top: 10%;
+}
+
+.hovercolor{
+  color: rgb(0, 0, 0) !important;
+}
+
+.box1{
+    color: rgb(0, 0, 0);
+    width: 25vw;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    padding: 4%;
+}
+.box2{
+    color: rgb(0, 0, 0);
+    width: 25vw;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    padding: 4%;
+}
+.box1:hover{
+  scale: 1.1;
+  transition: ease-in-out;
+  transition-duration: 750ms;
+  transition-timing-function: ease-in-out;
+}
+.box2:hover{
+  scale: 1.1;
+  transition: ease-in-out;
+  transition-duration: 750ms;
+  transition-timing-function: ease-in-out;
+}
+
+.box1:nth-child(1){
+    cursor: url("https://www.outshade.com/wp-content/uploads/2023/01/webdevelopment-outshade.png") , auto;
+}
+.box1:nth-child(2){
+    cursor: url("https://www.outshade.com/wp-content/uploads/2023/05/home-uiuxdesign-outshade-3.png") , auto;
+}
+.box1:nth-child(3){
+    cursor: url("https://www.outshade.com/wp-content/uploads/2023/01/appdev-outshade.png") , auto;
+}
+.box2:nth-child(1){
+    cursor: url("https://www.outshade.com/wp-content/uploads/2023/01/webdevelopment-outshade.png") , auto;
+}
+.box2:nth-child(2){
+    cursor: url("https://www.outshade.com/wp-content/uploads/2023/01/cloudservices-outshade.png") , auto;
+}
+.box2:nth-child(3){
+    cursor: url("https://www.outshade.com/wp-content/uploads/2023/01/webdevelopment-outshade.png") , auto;
+}
+
+/* .wox1:hover{
+  scale: 1.1;
+  transition: ease-in-out;
+  transition-duration: 750ms;
+  transition-timing-function: ease-in-out;
+
+}
+.wox2:hover{
+    scale: 1.1;
+    transition: ease-in-out;
+    transition-duration: 750ms;
+    transition-timing-function: ease-in-out;
+}
+.wox3:hover{
+    scale: 1.1;
+    transition: ease-in-out;
+    transition-duration: 750ms;
+    transition-timing-function: ease-in-out;
+}
+.wox4:hover{
+    scale: 1.1;
+    transition: ease-in-out;
+    transition-duration: 750ms;
+    transition-timing-function: ease-in-out;
+}
+.wox5:hover{
+    scale: 1.1;
+    transition: ease-in-out;
+    transition-duration: 750ms;
+    transition-timing-function: ease-in-out;
+}
+.wox6:hover{
+    scale: 1.1;
+    transition: ease-in-out;
+    transition-duration: 750ms;
+    transition-timing-function: ease-in-out;
+} */
+
+.wox1:hover{
+  .hovercolor{
+    color:  rgb(255, 196, 0) !important;
+  }  
+}
+.wox2:hover{
+  .hovercolor{
+    color: rgb(255, 196, 0) !important;
+  }  
+}
+.wox3:hover{
+  .hovercolor{
+    color: rgb(255, 196, 0) !important;
+  }  
+}
+.wox4:hover{
+  .hovercolor{
+    color: rgb(255, 196, 0) !important;
+  }  
+}
+.wox5:hover{
+  .hovercolor{
+    color: rgb(255, 196, 0) !important;
+  }  
+}
+.wox6:hover{
+  .hovercolor{
+    color: rgb(255, 196, 0) !important;
+  }  
+}
+
+@media only screen and (max-width: 850px) {
+    .servicepage{
+        display: flex;
+        flex-direction: column;
+      }
+
+    .subhead1{
+        text-align: center;  
+      }
+    .heads1{
+        text-align: center;
+      }
+    .heads2{
+        text-align: center;
+      }
+    .servicebox{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .box2{
+        margin-left: 0%;
+        margin-top: 5%;
+        width: auto;
+        justify-content: center;
+    }
+    .box1{
+        width: auto;
+    }
+}

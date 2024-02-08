@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Prompt:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+
+.carrers-1{
+    width: 100vw;
+    height: 60vh;
+    background-image: url("https://adarshco-operativebank.com/wp-content/uploads/2022/10/Careers-1.jpg");
+    background-color: #023047;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:color-burn;
+    border: 10px solid #5C677D;
+    border-radius: 10%;
+}
+
+.carrer-head-1{
+    font-size: 12vw;
+    color: white;
+    font-family: 'Protest Guerrilla', sans-serif;
+    text-align: center; /* Centers text horizontally */
+    position: relative;
+    top: 15%;
+}
+
+.head-carrer{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bolder;
+    margin-top: 5%;
+}
+
+.carrer-2{
+    padding: 3%;
+    margin-top: 5%;
+    text-align: start;
+    background-color: #cdeae55a ;
+    border: 4px solid #cdeae5 ;
+    color: white;
+}
+
+.carrer-2:hover{
+    background-color: #cdeae5 ;
+    transition: ease-in-out;
+    transition-duration: 750ms;
+    color: rgb(0, 0, 0);
+    .carrer-btn-2{
+        background-color: #000000;
+        border: 2px solid #000000;
+        color: rgb(255, 255, 255);
+        transition: ease-in-out;
+        transition-duration: 750ms;
+    }
+}   
+
+.carrer-head-2{
+    text-align: start;
+}
+.carrer-btn-2{
+    text-align: start;
+    padding: 1%;
+    margin-top: 2%;
+    background-color: #1d355700;
+    border: 2px solid #ffffff;
+    border-radius: 10%;
+    color: white;
+    width: 7vw;
+
+}

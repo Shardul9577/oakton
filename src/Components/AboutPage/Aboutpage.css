@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Teko:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+.Aboutpage{
+    display: flex;
+    margin-top: 7%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sideImg{
+    border-radius: 31%;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.heading1{
+    font-family: 'Orbitron', sans-serif;
+    text-align: left;
+    color: white;
+}
+
+.paras1{
+  text-align: left;
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Nunito', sans-serif; 
+}
+.buton{
+    margin-top: 5px;
+    margin-left: 0%;
+    display: flex;
+    text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+    .Aboutpage{
+       display: flex;
+       flex-direction: column ;
+    }
+
+    .sideImg{
+        width: 75%;
+        margin-bottom: 4%;
+    }
+
+    .heading1{
+        text-align: center;
+    }
+    
+    .paras1{
+      text-align: center
+    }
+ }
+@media only screen and (max-width: 575px) {
+    .Aboutpage{
+       display: flex;
+       flex-direction: column ;
+    }
+
+    .sideImg{
+        width: 75%;
+        margin-bottom: 4%;
+    }
+
+    .heading1{
+        text-align: center;
+    }
+    
+    .paras1{
+      text-align: center
+    }
+ }
