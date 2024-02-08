@@ -50,7 +50,7 @@ jobs:
         server: oaktontech.com
         username: u466199706
         password: Creta$9899
-        local-dir: build
+        local-dir: build/
         server-dir: /public_html/
 
   
