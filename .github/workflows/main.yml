@@ -38,7 +38,7 @@ jobs:
     # Below is an example using FTP
     name: Deploy to FTP
     uses: SamKirkland/FTP-Deploy-Action@4.2.0
-      with:
+    with:
         ftp-server: ftp://oaktontech.com/public_html/
         ftp-username: u466199706
         ftp-password: Creta$9899 
