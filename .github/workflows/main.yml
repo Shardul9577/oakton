@@ -39,7 +39,7 @@ jobs:
     - name: Deploy to FTP
       uses: SamKirkland/FTP-Deploy-Action@4.2.0
       with:
-        ftp-server: ftp://yourftpserver.com/public_html/
+        ftp-server: ftp://oaktontech.com/public_html/
         ftp-username: ${{ secrets.FTP_USERNAME }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         local-dir: build/
